@@ -8,6 +8,13 @@ export default {
     src: 'https://github.com/luizfelipe63.png',
     alt: 'Luix Felipe',
   },
+  argTypes: {
+    src: {
+      control: {
+        type: 'text',
+      },
+    },
+  },
 } as Meta<AvatarProps>
 
 export const Primary: StoryObj<AvatarProps> = {}
